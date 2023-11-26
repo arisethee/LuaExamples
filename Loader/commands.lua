@@ -46,7 +46,8 @@ end;
 
 struct['unglobalban'] = function(struct: structure, data)
   local player: Player = data.Player;
-  -- Add your logic here
+  
+  --/ Empty;
 end;
 
 struct['banplayer'] = function(struct: structure, data)
@@ -68,34 +69,38 @@ end;
 
 struct['unbanplayer'] = function(struct: structure, data)
   local player: Player = data.Player;
-  -- Add your logic here
+
+  --/ Empty;
 end;
 
 struct['muteplayer'] = function(struct: structure, data)
   local player: Player = data.Player;
   local reason = data.Reason;
-  -- Add your logic here
+  
+  --/ Empty;
 end;
 
 struct['unmuteplayer'] = function(struct: structure, data)
   local player: Player = data.Player;
   
-  -- Add your logic here
+  --/ Empty;
 end;
 
 struct['announce'] = function(struct: structure, data)
   local message = data.Message;
-  -- Add your logic here
+  
+  --/ Empty;
 end;
 
 struct['warnplayer'] = function(struct: structure, data)
   local player: Player = data.Player;
   local reason = data.Reason;
-  -- Add your logic here
+  
+  --/ Empty;
 end;
 
 struct['viewlogs'] = function(struct: structure, data)
-  -- Add your logic here
+  --/ Empty;
 end;
 
 struct['shutdownserver'] = function(struct: structure, data)
@@ -108,7 +113,8 @@ end;
 
 struct['getdiscord'] = function(struct: structure, data)
   local player: Player = data.Player;
-  -- Add your logic here
+  
+  --/ Empty;
 end;
 
 return struct;
